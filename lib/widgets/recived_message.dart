@@ -32,7 +32,7 @@ class RecivedMessage extends StatelessWidget {
                 children: [
                   Text(
                     text,
-                    style: TextStyle(fontSize: 18),
+                    style: const TextStyle(fontSize: 18),
                   ),
                 ],
               ),

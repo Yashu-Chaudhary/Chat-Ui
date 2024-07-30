@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/widgets.dart';
 
 class BottomTextField extends StatefulWidget {
   const BottomTextField({
@@ -28,7 +26,7 @@ class _BottomTextFieldState extends State<BottomTextField> {
             child: TextField(
               controller: controller,
               decoration: const InputDecoration(
-                hintText: 'Aa',
+                hintText: 'Aa..',
                 border: OutlineInputBorder(
                   borderSide: BorderSide(width: 1),
                   borderRadius: BorderRadius.all(Radius.circular(50)),
